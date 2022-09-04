@@ -1,0 +1,13 @@
+print('Enter Size of array')
+n=input()
+l=[]
+print(l)
+for i in range(0,n-1):
+    l=input()
+temp=l[0]
+l[0]=l[-1]
+l[-1]=temp
+
+print(l)
+
+ 
